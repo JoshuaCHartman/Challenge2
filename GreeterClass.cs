@@ -10,23 +10,18 @@ namespace Week2Challenges_ConsoleApp
     {
 
 
-        /*
-        public void GetFirstName()
+        // ask for input, print greeting to console, return the string to be used as input
+        public string GetFirstName1()
         {
             Console.WriteLine("Please enter your first name.");
             string firstNameInput = Console.ReadLine();
             string greeting = String.Format("Hello, {0}!", firstNameInput);
             Console.WriteLine(greeting);
+            return firstNameInput;
 
         }
 
-        public string GoodBye()
-        {
-            Console.WriteLine("Good bye " + firstNameInput);
-
-        }
-
-        */
+        
 
 
         // set property for username

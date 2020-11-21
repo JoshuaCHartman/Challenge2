@@ -15,27 +15,30 @@ namespace Week2Challenges_ConsoleApp
 
             GreeterClass firstGreeting = new GreeterClass();
 
-            // get user input (name) to pass to class >>>
-            // changed to method 
+            string name = firstGreeting.GetFirstName1();
+            
 
-            firstGreeting.GetFirstName();
-            firstGreeting.Name = Console.ReadLine();
+            /*    // get user input (name) to pass to class >>>
+                // changed to method 
+
+                firstGreeting.GetFirstName();
+                firstGreeting.Name = Console.ReadLine();
 
 
-            /*   previous way below, changed to method above           
-             *   // get user input (name) to pass to class
+                /*   previous way below, changed to method above           
+                 *   // get user input (name) to pass to class
 
-                         Console.WriteLine("Enter your first name");
-                         string firstName = Console.ReadLine();
-           */
+                             Console.WriteLine("Enter your first name");
+                             string firstName = Console.ReadLine();
+               */
 
 
             // call method Greeting in firstGreeting class, and use user input (name) as string 
             // & write to console our initial greeting
 
-
+            /*
             firstGreeting.Greeting(firstGreeting.Name);
-
+            */
             // set int variable for the hour of the day as now to be used in time of day greeting
             // made internal variable in method
             // int now = DateTime.Now.Hour;
@@ -47,8 +50,9 @@ namespace Week2Challenges_ConsoleApp
             // call method Farewell in firstGreeting class, and use user input (name as string
             // & write to console
 
-            firstGreeting.Farewell(firstGreeting.Name);
+            firstGreeting.Farewell(name);
 
+            
             Console.ReadLine();
 
         }
